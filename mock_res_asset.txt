@@ -1,0 +1,49 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://horizon-testnet.stellar.org/assets?asset_issuer=GBJNFWCRU2BKSU5JTKBC4WDSUEUB7OMB6CKS2MJ356RFWAJTSD6SYM47\u0026cursor=\u0026limit=10\u0026order=asc"
+    },
+    "next": {
+      "href": "https://horizon-testnet.stellar.org/assets?asset_issuer=GBJNFWCRU2BKSU5JTKBC4WDSUEUB7OMB6CKS2MJ356RFWAJTSD6SYM47\u0026cursor=kittyMeow_GBJNFWCRU2BKSU5JTKBC4WDSUEUB7OMB6CKS2MJ356RFWAJTSD6SYM47_credit_alphanum12\u0026limit=10\u0026order=asc"
+    },
+    "prev": {
+      "href": "https://horizon-testnet.stellar.org/assets?asset_issuer=GBJNFWCRU2BKSU5JTKBC4WDSUEUB7OMB6CKS2MJ356RFWAJTSD6SYM47\u0026cursor=kittyMeow_GBJNFWCRU2BKSU5JTKBC4WDSUEUB7OMB6CKS2MJ356RFWAJTSD6SYM47_credit_alphanum12\u0026limit=10\u0026order=desc"
+    }
+  },
+  "_embedded": {
+    "records": [
+      {
+        "_links": {
+          "toml": {
+            "href": ""
+          }
+        },
+        "asset_type": "credit_alphanum12",
+        "asset_code": "kittyMeow",
+        "asset_issuer": "GBJNFWCRU2BKSU5JTKBC4WDSUEUB7OMB6CKS2MJ356RFWAJTSD6SYM47",
+        "paging_token": "kittyMeow_GBJNFWCRU2BKSU5JTKBC4WDSUEUB7OMB6CKS2MJ356RFWAJTSD6SYM47_credit_alphanum12",
+        "accounts": {
+          "authorized": 1,
+          "authorized_to_maintain_liabilities": 0,
+          "unauthorized": 0
+        },
+        "num_claimable_balances": 0,
+        "amount": "1000.0000000",
+        "balances": {
+          "authorized": "1000.0000000",
+          "authorized_to_maintain_liabilities": "0.0000000",
+          "unauthorized": "0.0000000"
+        },
+        "claimable_balances_amount": "0.0000000",
+        "num_accounts": 1,
+        "flags": {
+          "auth_required": false,
+          "auth_revocable": false,
+          "auth_immutable": false,
+          "auth_clawback_enabled": false
+        }
+      }
+    ]
+  }
+}
+

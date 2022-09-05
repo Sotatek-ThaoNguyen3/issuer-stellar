@@ -1,0 +1,83 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://horizon-testnet.stellar.org/accounts/GCZ74RHTIXD36PPEX54GCACYYFX6S4SZGTUSEMB7UEQ56YXRUX5QTKTS"
+    },
+    "transactions": {
+      "href": "https://horizon-testnet.stellar.org/accounts/GCZ74RHTIXD36PPEX54GCACYYFX6S4SZGTUSEMB7UEQ56YXRUX5QTKTS/transactions{?cursor,limit,order}",
+      "templated": true
+    },
+    "operations": {
+      "href": "https://horizon-testnet.stellar.org/accounts/GCZ74RHTIXD36PPEX54GCACYYFX6S4SZGTUSEMB7UEQ56YXRUX5QTKTS/operations{?cursor,limit,order}",
+      "templated": true
+    },
+    "payments": {
+      "href": "https://horizon-testnet.stellar.org/accounts/GCZ74RHTIXD36PPEX54GCACYYFX6S4SZGTUSEMB7UEQ56YXRUX5QTKTS/payments{?cursor,limit,order}",
+      "templated": true
+    },
+    "effects": {
+      "href": "https://horizon-testnet.stellar.org/accounts/GCZ74RHTIXD36PPEX54GCACYYFX6S4SZGTUSEMB7UEQ56YXRUX5QTKTS/effects{?cursor,limit,order}",
+      "templated": true
+    },
+    "offers": {
+      "href": "https://horizon-testnet.stellar.org/accounts/GCZ74RHTIXD36PPEX54GCACYYFX6S4SZGTUSEMB7UEQ56YXRUX5QTKTS/offers{?cursor,limit,order}",
+      "templated": true
+    },
+    "trades": {
+      "href": "https://horizon-testnet.stellar.org/accounts/GCZ74RHTIXD36PPEX54GCACYYFX6S4SZGTUSEMB7UEQ56YXRUX5QTKTS/trades{?cursor,limit,order}",
+      "templated": true
+    },
+    "data": {
+      "href": "https://horizon-testnet.stellar.org/accounts/GCZ74RHTIXD36PPEX54GCACYYFX6S4SZGTUSEMB7UEQ56YXRUX5QTKTS/data/{key}",
+      "templated": true
+    }
+  },
+  "id": "GCZ74RHTIXD36PPEX54GCACYYFX6S4SZGTUSEMB7UEQ56YXRUX5QTKTS",
+  "account_id": "GCZ74RHTIXD36PPEX54GCACYYFX6S4SZGTUSEMB7UEQ56YXRUX5QTKTS",
+  "sequence": "2608269214351362",
+  "subentry_count": 1,
+  "last_modified_ledger": 817925,
+  "last_modified_time": "2021-08-05T03:13:15Z",
+  "thresholds": {
+    "low_threshold": 0,
+    "med_threshold": 0,
+    "high_threshold": 0
+  },
+  "flags": {
+    "auth_required": false,
+    "auth_revocable": false,
+    "auth_immutable": false,
+    "auth_clawback_enabled": false
+  },
+  "balances": [
+    {
+      "balance": "1000.0000000",
+      "limit": "922337203685.4775807",
+      "buying_liabilities": "0.0000000",
+      "selling_liabilities": "0.0000000",
+      "last_modified_ledger": 817925,
+      "is_authorized": true,
+      "is_authorized_to_maintain_liabilities": true,
+      "asset_type": "credit_alphanum12",
+      "asset_code": "kittyMeow",
+      "asset_issuer": "GBJNFWCRU2BKSU5JTKBC4WDSUEUB7OMB6CKS2MJ356RFWAJTSD6SYM47"
+    },
+    {
+      "balance": "11189.9999800",
+      "buying_liabilities": "0.0000000",
+      "selling_liabilities": "0.0000000",
+      "asset_type": "native"
+    }
+  ],
+  "signers": [
+    {
+      "weight": 1,
+      "key": "GCZ74RHTIXD36PPEX54GCACYYFX6S4SZGTUSEMB7UEQ56YXRUX5QTKTS",
+      "type": "ed25519_public_key"
+    }
+  ],
+  "data": {},
+  "num_sponsoring": 0,
+  "num_sponsored": 0,
+  "paging_token": "GCZ74RHTIXD36PPEX54GCACYYFX6S4SZGTUSEMB7UEQ56YXRUX5QTKTS"
+}
