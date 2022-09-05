@@ -16,6 +16,13 @@ module.exports.createAsset = function(issuerSecretKey, asset_code){
     return new StellarSdk.Asset(asset_code, issuingKeys.publicKey());
 }
 
+module.exports.createAssetWithPublicKey = function(issuerPublicKey, asset_code){
+    
+
+    // Create an object to represent the new asset
+    return new StellarSdk.Asset(asset_code, issuerPublicKey);
+}
+
 /**
  * let receiver trust Issuer account
  * @param {String} secretKey key to receive
