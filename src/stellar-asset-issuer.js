@@ -1,6 +1,8 @@
 var StellarSdk = require("stellar-sdk");
-var server = new StellarSdk.Server("https://horizon-testnet.stellar.org")
-var networkPassphrase = StellarSdk.Networks.TESTNET;
+
+var server = new StellarSdk.Server("https://horizon.stellar.org")
+
+var networkPassphrase = StellarSdk.Networks.PUBLIC;
 /**
  * create custom Asset
  * @param {String} issuerSecretKey key to issue
@@ -106,7 +108,7 @@ module.exports.sendAsset = async function(issuerSecretKey, receiverSecretKey, as
       .then(function (issuer) {
         var transaction = new StellarSdk.TransactionBuilder(issuer, {
           fee: 100,
-          networkPassphrase: StellarSdk.Networks.TESTNET,
+          networkPassphrase: StellarSdk.Networks.PUBLIC
         })
           .addOperation(
             StellarSdk.Operation.payment({
