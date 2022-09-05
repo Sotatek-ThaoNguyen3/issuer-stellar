@@ -6,4 +6,11 @@ to run program:
 
 ```
 node main.js
+
+```
+
+to add trustline
+
+```
+node addTrustline.js
 ```
